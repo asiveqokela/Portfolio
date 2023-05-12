@@ -8,7 +8,8 @@
 }
 
 body{
-    color: #ededed;
+    color: #081b29;
+
 }
 
 .header{
@@ -27,7 +28,7 @@ body{
 .logo {
     position: relative;
     font-size: 25px;
-    color: #ededed;
+    color: #081b29;
     text-decoration: none;
     font-weight: 600;
 }  
@@ -39,14 +40,13 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: red;
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
 
 .navbar a {
     font-size: 18px;
-    color: #ededed;
+    color: #081b29;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px; 
@@ -57,10 +57,12 @@ body{
 .navbar a.active {
     color: #00abf0;
 }
-
+#pic3{
+    position: relative; left: 200px;
+}
 .home {
     height: 100vh;
-   background: url('home.jpg')no-repeat;
+   
    background-size: cover;
    background-position: center;
     display: flex;
@@ -86,7 +88,7 @@ body{
     right: 0;
     width: 100%;
     height: 100%;
-    background: red;
+    background: transparent;
     animation: showRight 1s ease forwards;
     animation-delay: .1s;
 }
@@ -283,7 +285,7 @@ width: 100%;
     right: 0;
     width: 120%;
     height: 100%;
-    background: red;
+    background: transparent;
     animation: showRight 1s ease forwards;
     animation-delay: 3s;
     z-index: 100;
